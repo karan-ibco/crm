@@ -1,0 +1,76 @@
+{
+  "name": "Soul & Scents",
+  "short_name": "Soul & Scent",
+  "description": "Soul & Scents — sales CRM",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#e1483d",
+  "theme_color": "#e1483d",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Scan card",
+      "short_name": "Scan card",
+      "url": "./?go=scan",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Today’s follow-ups",
+      "short_name": "Today’s follow-ups",
+      "url": "./?go=leads%3Fdue%3Dtoday",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Tasks",
+      "short_name": "Tasks",
+      "url": "./?go=tasks",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Leads",
+      "short_name": "Leads",
+      "url": "./?go=leads",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
